@@ -14,7 +14,7 @@ app.use(cors());
 app.use('/posts', postsRoutes);
 
 const CONNECTION_URL =
-	'mongodb+srv://memories:memories@testcluster1.ikdmq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+	'mongodb+srv://memories:memories@testcluster1.ikdmq.mongodb.net/memories?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;
 
 mongoose
